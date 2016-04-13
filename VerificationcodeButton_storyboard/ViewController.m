@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "UICountingButton.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UICountingButton *verificationcodeButton;
 
 @end
 
@@ -17,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)verificationcodeAction:(id)sender {
+//    self.verificationcodeButton.userInteractionEnabled = NO;
+    [self.verificationcodeButton countFrom:60 to:0 withDuration:60];
+    
 }
 
 - (void)didReceiveMemoryWarning {

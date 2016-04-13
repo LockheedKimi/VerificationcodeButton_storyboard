@@ -15,6 +15,7 @@
 		F0BA72641CBE3D030041A092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0BA72621CBE3D030041A092 /* LaunchScreen.storyboard */; };
 		F0BA726F1CBE3D030041A092 /* VerificationcodeButton_storyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA726E1CBE3D030041A092 /* VerificationcodeButton_storyboardTests.m */; };
 		F0BA727A1CBE3D030041A092 /* VerificationcodeButton_storyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA72791CBE3D030041A092 /* VerificationcodeButton_storyboardUITests.m */; };
+		F0BA72891CBE3D780041A092 /* UICountingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F0BA72881CBE3D780041A092 /* UICountingButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F0BA72751CBE3D030041A092 /* VerificationcodeButton_storyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerificationcodeButton_storyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0BA72791CBE3D030041A092 /* VerificationcodeButton_storyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerificationcodeButton_storyboardUITests.m; sourceTree = "<group>"; };
 		F0BA727B1CBE3D030041A092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0BA72871CBE3D780041A092 /* UICountingButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingButton.h; sourceTree = "<group>"; };
+		F0BA72881CBE3D780041A092 /* UICountingButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		F0BA72481CBE3D030041A092 = {
 			isa = PBXGroup;
 			children = (
+				F0BA72871CBE3D780041A092 /* UICountingButton.h */,
+				F0BA72881CBE3D780041A092 /* UICountingButton.m */,
 				F0BA72531CBE3D030041A092 /* VerificationcodeButton_storyboard */,
 				F0BA726D1CBE3D030041A092 /* VerificationcodeButton_storyboardTests */,
 				F0BA72781CBE3D030041A092 /* VerificationcodeButton_storyboardUITests */,
@@ -272,6 +277,7 @@
 			files = (
 				F0BA725C1CBE3D030041A092 /* ViewController.m in Sources */,
 				F0BA72591CBE3D030041A092 /* AppDelegate.m in Sources */,
+				F0BA72891CBE3D780041A092 /* UICountingButton.m in Sources */,
 				F0BA72561CBE3D030041A092 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
